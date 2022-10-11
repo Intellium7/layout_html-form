@@ -1,13 +1,12 @@
 /* styles go here */
 .form-field {
   display: block;
+}
+
+.form-field:not(:last-child) {
   margin-bottom: 10px;
 }
 
 .fieldset {
   margin-bottom: 20px;
-}
-
-.form-field-last {
-  /*renamed to remove unnecessary vertical distance between inputs*/
 }
